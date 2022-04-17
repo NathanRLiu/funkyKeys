@@ -1,3 +1,6 @@
+:root{
+	background-color: #282c34;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.productDiv{
+	height:500px;
+	width:270px;
+	padding:10px;
+	background-color:#ccccc7;
+	border-radius:5px;
+	margin:auto;
+	
+}
+.productDiv > div{
+	margin:10px;
+	text-align:center;
+}
+.productTitle{
+	font-size:30px;
+}
+.buyButton, .sellButton{
+	width:115px;
+	height:50px;
+	margin:5px;
+	cursor:pointer;
+}
+.exchangeButton{
+	width:240px;
+	height:50px;
+	margin:5px;
+	cursor:pointer;
 }
