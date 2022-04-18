@@ -56,15 +56,16 @@
 .productTitle{
 	font-size:30px;
 }
+.actionButtons > button{
+	cursor:pointer;
+	margin:5px;
+	font-size:20px;
+}
 .buyButton, .sellButton{
 	width:115px;
 	height:50px;
-	margin:5px;
-	cursor:pointer;
 }
 .exchangeButton{
 	width:240px;
 	height:50px;
-	margin:5px;
-	cursor:pointer;
 }

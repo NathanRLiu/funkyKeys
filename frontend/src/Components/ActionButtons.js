@@ -3,6 +3,7 @@ import React from 'react';
 class ActionButtons extends React.Component {
 	constructor(props){
 		super(props);
+		this.buy = this.buy.bind(this);
 	}
   render() {
     return (
