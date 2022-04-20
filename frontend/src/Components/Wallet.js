@@ -26,8 +26,20 @@ const POLYGON_TESTNET_PARAMS = {
   rpcUrls: ['https://matic-mumbai.chainstacklabs.com/'],
   blockExplorerUrls: ['https://mumbai.polygonscan.com/']
 }
+// Polygon Testnet params
+const GANACHE_NET_PARAMS = {
+  chainId: '0x539', // 8001
+  chainName: 'Mumbai',
+  nativeCurrency: {
+    name: 'MATIC Token',
+    symbol: 'MATIC',
+    decimals: 18
+  },
+	rpcUrls: ['https://127.0.0.1:7545/'],
+  blockExplorerUrls: ['https://mumbai.polygonscan.com/']
+}
 
-const SELECTED_NETWORK_PARAMS = POLYGON_TESTNET_PARAMS;
+const SELECTED_NETWORK_PARAMS = GANACHE_NET_PARAMS;
 //const SELECTED_NETWORK_PARAMS = POLYGON_MAINNET_PARAMS;
 
 const sameChain = (chain) => chain === SELECTED_NETWORK_PARAMS.chainId.toLowerCase();

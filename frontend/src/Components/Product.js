@@ -13,7 +13,7 @@ class Product extends React.Component {
 					<img src={this.props.productInfo.image} className="productImage" alt={this.props.productInfo.description} width="250" height="250"/>
 				</div>
 				<div className = "productDescription"> {this.props.productInfo.description} </div>
-				<ActionButtons/>
+				<ActionButtons contract={this.props.contract} productId={this.props.productInfo.productId}/>
 			</div>
 		);
   }
